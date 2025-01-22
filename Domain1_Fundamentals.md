@@ -4,12 +4,12 @@
 
 ### Define basic AI terms 
 
-* **AI - Artificial Intelligence**  : Tries to replicate human intelligence with computers.
+* **AI - Artificial Intelligence**  : Branch of science that tries to replicate human intelligence with computers.
 * **ML - Machine learning**  : A branch of AI that studies how computers can learn and approximate patterns.
 * **Neural Networks** : Matrix of neurons, inspired by how the human brain works.
 * **Deep learning** : Studies neural networks with several layers
 * **computer vision** : 
-* natural language processing [NLP]
+* **natural language processing [NLP]**:
 * **model** : 
 * **algorithm** :
 * **training** :
@@ -33,13 +33,26 @@ Learning in neural networks usually involves changing the weights of the connect
 
 ### Describe various types of inferencing
 
-* Batch
-* Real time
-* 
+* Batch (offline)-  generates model predictions on a batch of observations. Higher latency
+* Real time - Generates and returns one model prediction as fast as possible. Lower latency
+ 
 
 ### Describe the different types of data in AI models 
 
-labeled and unlabeled, tabular, time-series, image, text, structured and unstructured
+Data can be classified in several ways:
+* By label
+    * Labeled data comes with one or more associated labels. This is useful for supervised learning.
+    * Unlabeled data is not associated with any data. 
+* By structure
+    * **Structured** data conforms to a pre-defined structure (even if complex). For example, tables in a relational database.
+    * **Unstructured** data has no useful apparent structure whatsoever.
+    * **Semi-structured** data does not quite conform to a predefined structure, but has *some* structure that can be manually or automatically extracted. For example, html files, and spreadsheets.
+    * What is considered structured or not depends on context. For example, sound and image files are usually considered unstructured, although the file format has a structure. Spreadsheets that have headers, or usually follow a particular format may be semi-structured, or even structured, but a random set of spreadsheets may be unstructured.
+* By type
+    * Tabular - similar to a relational table
+    * time-series
+    * image
+    * text
 
 
 
