@@ -54,9 +54,40 @@ Data can be classified in several ways:
     * image
     * text
 
+### Describe supervised learning, unsupervised learning, and reinforcement learning. 
+
+* In **supervised learning** 
+
+## Task 1.2: Identify practical use cases for AI.
+
+### Explain the capabilities of AWS managed AI/ML services 
+
+#### [Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+
+Amazon SageMaker delivers an integrated experience for analytics and AI with unified access to all your data. Imagine an IDE for analytics in the AWS cloud. SageMaker is an umbrella for many sub-services, dealing with data storage, processing, analytics, AI model creation and generative AI.
 
 
+#### Amazon Transcribe, 
 
+#### Amazon Translate 
+
+#### Amazon Comprehend,
+
+#### Amazon Lex 
+
+#### Amazon Polly
+
+## Task 1.3: Describe the ML development lifecycle.
+
+The end-to-end machine learning lifecycle process includes the following phases: 
+
+1. Business goal identification
+2. ML problem framing
+3. Data processing (data collection, data preprocessing, and feature engineering)
+4. Model development (training, tuning, and evaluation)
+5. Model deployment (inference and prediction)
+6. Model monitoring
+7. Model retraining
 
 
 
